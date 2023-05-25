@@ -7,6 +7,10 @@ body {
   margin: 0;
 }
 
+main {
+  padding: 36px;
+}
+
 .header {
   display: flex;
   justify-content: center;
@@ -18,4 +22,21 @@ body {
 
 .header-title {
   font-size: 20px;
+}
+
+.form {
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+}
+
+.form-button {
+  grid-column: 1 / -1;
+  gap: 17px;
+  background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+  color: white;
+  border: none;
+}
+
+.meme-image {
+  max-width: 100%;
 }
